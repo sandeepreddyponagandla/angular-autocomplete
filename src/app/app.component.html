@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<ul id="menu">
+  <li>
+    <input class="srch" [(ngModel)]="filterKey" type="text" placeholder="Filter menu" autofocus="true" (keyup)="filterList()" />
+  </li>
+  <li *ngFor="let menu of menuItems; let i = index">
+    <img class="icon" align="center" src="./assets/icons/{{ menu.icon }}.png" />
+    <span>{{ menu.text }}</span>
+  </li>
+</ul>

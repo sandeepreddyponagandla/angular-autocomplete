@@ -1,0 +1,45 @@
+body {
+    font-size: 14px;
+}
+#menu {
+    margin : 0;
+    padding : 0;
+    list-style-type: none;
+    width: 200px;
+    background: #FAFAFA;
+}
+
+#menu li {
+    height : 48px;
+    padding : 0 8px;
+}
+
+#menu li {
+    border-bottom : 1px solid #EDEDEF;
+}
+#menu li > * {
+    line-height: 48px;
+}
+#menu li > span {
+    font-size: 14px;
+    color : #616161;
+    font-family: 'Roboto', sans-serif;
+}
+#menu li > .icon {
+    margin-right : 16px;
+}
+#menu .srch {
+    border: 0;
+    width: 100%;
+    line-height: 40px;
+    font-size : 14px;
+    padding : 0 16px;
+    background : transparent;
+    /* border-bottom : 1px solid #EEE; */
+}
+#menu .srch::-webkit-input-placeholder {
+    color : #BDBDBD;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
